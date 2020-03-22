@@ -1,4 +1,4 @@
-# AWS-HW
+
 USE IMAGE : https://hub.docker.com/r/jupyter/base-notebook/builds
 
 #Createa docker-compose.yml
@@ -18,3 +18,8 @@ USE IMAGE : https://hub.docker.com/r/jupyter/base-notebook/builds
      user: root
     
     
+#use docker compose
+
+docker-compose up -d
+
+#go to your brower and input your localhostIP:8888
