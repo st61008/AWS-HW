@@ -8,3 +8,6 @@ services:
     volumes:
       - ./AWS_HW:/home/jovyan/work/
     command: start-notebook.sh --NotebookApp.token=''
+    environment:
+      GRANT_SUDO: "yes"
+    user: root
