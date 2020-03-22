@@ -20,6 +20,6 @@ USE IMAGE : https://hub.docker.com/r/jupyter/base-notebook/builds
     
 #use docker compose
 
-docker-compose up -d
+        docker-compose up -d
 
 #go to your brower and input your localhostIP:8888
