@@ -20,6 +20,7 @@ USE IMAGE : https://hub.docker.com/r/jupyter/base-notebook/builds
 #Create a folder and put yml in
 
 #Enter the folder
+
 #use docker compose
 
         docker-compose up -d
