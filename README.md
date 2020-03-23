@@ -17,7 +17,8 @@ USE IMAGE : https://hub.docker.com/r/jupyter/base-notebook/builds
        GRANT_SUDO: "yes"
      user: root
     
-    
+#Create a folder and put yml in
+#Enter the folder
 #use docker compose
 
         docker-compose up -d
